@@ -1,0 +1,78 @@
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* UTILS */
+
+.w-20{
+    width: 30%;
+    float: left;
+}
+
+.w-80{
+    width: 70%;
+    float: left;
+}
+
+.card::after,
+.container::after{
+        content: "";
+        clear: both;
+        display: block;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+/* MAIN */
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    
+    /* DEBUG */
+    border: 1px solid black;
+}
+
+h1{
+    color: rgb(229, 49, 112);
+    margin: 30px;
+}
+
+
+
+/* CARD */
+
+.card{
+    max-width: calc(100% / 3 - 40px);
+    float: inline-start;
+    margin: 20px;
+  
+    background-color: black;
+    color: white;
+}
+
+.card a {
+    color: rgb(5, 132, 214);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.card h2,
+.card p{
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+}
